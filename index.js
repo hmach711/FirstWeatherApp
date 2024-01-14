@@ -51,12 +51,12 @@ iconElement.innerHTML=`<img src="${response.data.condition.icon_url}" "class=wea
 
   function displayForecast() {
     let days = ["Mon", "Tues", "Wed", "Thurs"];
-    let forecastHtml = '<div class="weather-forecast">';
+    let forecastHtml = "";
   
     days.forEach( function(day) {
       forecastHtml= 
       forecastHtml+`
-    
+    <div class="forecast">
             <div class="forecast-date">${day}</div>
           </div>
           <div class="temperature-wrapper">
