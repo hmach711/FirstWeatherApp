@@ -58,11 +58,10 @@ iconElement.innerHTML=`<img src="${response.data.condition.icon_url}" "class=wea
       forecastHtml+`
     <div class="forecast">
             <div class="forecast-date">${day}</div>
-          </div>
+    
           <div class="temperature-wrapper">
             <span class="max-temp">7&deg;</span>
             <span class="min-temp">3&deg;</span>
-          </div>
         </div>`;
     });
   
