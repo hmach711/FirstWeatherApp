@@ -103,10 +103,42 @@ footer {
 
 .weather-forecast {
 margin-top: 20px;
+display: flex;
+justify-content: space-between;
+
 }
+.column-2 {
+    display: flex;
+    flex-direction:column; 
+    align-items: center; 
+  }
+
+  .temperature-wrapper {
+    display: flex;
+   align-items: center;
+  justify-content: space-between;
+    
+  }
+
 
 .forecast-date {
-font-size: 16px;
+font-size: 20px;
+text-align: center;
+color: black;
+   line-height: 20px;
+margin: 0 5px;
 
 }
+
+.min-temp {
+    color: rgba(39, 33, 66, 0.6); 
+}
+.max-temp, .min-temp {
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0;
+    padding: 6px;
+  }
+
 
