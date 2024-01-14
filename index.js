@@ -49,8 +49,31 @@ iconElement.innerHTML=`<img src="${response.data.condition.icon_url}" "class=wea
 
   }
 
+function displayForecast () {
+let days= ["Mon", "Tues", "Wed", "Thurs"];
+let forecastHtml= "";
+
+days.forEach(day => {
+    forecastHtml +=
+        
+        `  <div class="row">
+    <div class="column-2">
+      <div class="forecast-date">${day}</div>
+        Saturday
+      </div>
+      <div class="temperature-wrapper">
+        <span class="max-temp">7&deg;</span>
+        <span class="min-temp">3&deg;</span>
+      </div>`;
+});
+
+
+let forecastElement = document.querySelector("#forecast");
+forecastElement.innerHTML = forecastHtml;
+}
   
   let weatherForm = document.querySelector("#search-form");
   weatherForm.addEventListener("submit", weatherSearchForm);
 
   citySearch("London");
+  displayForecast ();

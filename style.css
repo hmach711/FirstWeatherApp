@@ -1,5 +1,6 @@
 body {
-    background: #f9f7fe;
+    background:url(2cityscape.jpg);
+    -webkit-background-size:cover;
     font-family:  'Roboto', sans-serif;
   }
   
@@ -9,9 +10,10 @@ body {
 
   }
 .weather-body{
-background-color: white;
+background-color: rgb(47, 47, 59);
 max-width: 600px;
 margin: 30px auto;
+border-radius: 6px;
 box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
 padding:30px;
 }
@@ -55,11 +57,13 @@ h1{
 .weather-app-details {
 font-size: 13px;
 line-height: 20px;
-color:rgba(39, 33, 66, 0.4);
+color:rgba(20, 16, 37, 0.7);
+font-weight: bolder;
 }
 
 .weather-app-details strong {
 color: #79c2d0;
+opacity: 0.5;
 
 }
 
