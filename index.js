@@ -32,7 +32,7 @@ cityElement.innerHTML = response.data.city;
     conditionElement.innerHTML=response.data.condition.description;
     humidityElement.innerHTML=`${response.data.temperature.humidity}%`;
   windElement.innerHTML=`${response.data.wind.speed}km/ph`;
-iconElement.innerHTML= src=`<img src="${response.data.condition.icon_url}" "class=weather-app-emoji"/>`;
+iconElement.innerHTML=`<img src="${response.data.condition.icon_url}" "class=weather-app-emoji"/>`;
 
 
 }
