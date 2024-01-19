@@ -10,7 +10,7 @@ body {
 
   }
 .weather-body{
-background-color: rgb(47, 47, 59);
+background-color: #393e46; 
 max-width: 600px;
 margin: 30px auto;
 border-radius: 6px;
