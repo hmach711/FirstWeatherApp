@@ -34,10 +34,11 @@ header {
 
 .search-form-button {
   background: #38256a;
-  padding: 15px 30px;
+  padding: 20px 30px;
   border: none;
   font-size: 16px;
   margin-left: 5px;
+  margin-top: 10px;
   border-radius: 6px;
   color: white;
 }
